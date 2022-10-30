@@ -1,7 +1,3 @@
-* {
-    padding: 0px;
-    margin: 0px;
-}
 
 .container {
     width: 800px;
@@ -38,15 +34,25 @@
     text-shadow: 1px 1px 1px white;
 }
 
-.tabela {
+.tbl {
     width: 900px;
     box-sizing: border-box;
     border: 1px solid black;
 }
 
-td {
-    border: 1px solid black;
+tr {
+    font-family: Tahoma;
+    font-size: 22px;
 }
+td {
+    box-sizing: border-box;
+    border: 1px solid black; 
+}
+
+.produtos {
+    font-weight: bolder;
+}
+
 h1 {
     background: green;
     margin-top: 150px;
@@ -111,4 +117,9 @@ footer {
     color: white;
     font-size: 22px;
     text-align: center;
+}
+
+.p-footer {
+    position: relative;
+    top: 15%;
 }

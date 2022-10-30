@@ -1,70 +1,60 @@
-* {
-    padding: 0px;
-    margin: 0px;
+.div1 {
+    width: 800px;
+    height: 350px;
+    background-color: lightgreen;
+    position: relative;
+    margin: 10% auto;
 }
 
-h1 {
-    background: green;
-    margin-top: 150px;
-    font-family: roboto;
-    color: gray;
+.estrelar {
+    width: 280px;
+    height: 220px;
+    position: absolute;
+    left: 220px;
+    top: 20%;
+}
+
+.div-texto {
+    width: 250px;
+    height: 350px;
+    position: relative;
+    left: 80%;
+}
+
+.p-texto {
+    background-color: #333333;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight:bolder;
     box-sizing: border-box;
+    border: 1px solid;
     text-shadow: 1px 1px 1px white
 }
 
-button {
-    width: 140px;
-    height: 40px;
-    background-color: lightblue;
-    text-transform: uppercase;
-    color: #333333;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    border-radius: 9px;
-}
-
-button:hover {
-    width: 140px;
-    height: 40px;
-    background-color: lightgreen;
-    text-transform: uppercase;
-    color: #333333;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-}
-
-.q6 {
-    display: inline-block;
-    background: gray;
-    padding: 10px;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    font-weight: lighter;
+.tbl {
+    width: 900px;
     box-sizing: border-box;
-    border: 2px black solid;
-    border-radius: 22px;
+    border: 1px solid black;
 }
 
-.img-q6 {
-    border-radius: 22px;
+tr {
+    font-family: Tahoma;
+    font-size: 22px;
+}
+td {
+    box-sizing: border-box;
+    border: 1px solid black; 
 }
 
-.nav {
-    background-color: yellow;
+.produtos {
+    font-weight: bolder;
 }
 
-.menu {
-    color: black;
-    font-size: 14px;
-    text-decoration: none;
-}
-
-footer {
-    width: 100%;
-    height: 40px;
-    background-color: #333333;
-    color: white;
-    font-size: 16px;
-    text-align: center;
+h1 {
+    background-color: green;
+    margin-top: 150px;
+    color: gray;
+    font-family: roboto;
+    text-shadow: 1px 1px 1px white;
 }

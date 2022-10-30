@@ -1,0 +1,298 @@
+Q-01------------->
+
+html--
+    <div class="container">
+        <div class="cor">
+            <img src="estrelar.png" class="imagem">
+        </div>
+    </div>
+
+css--
+.container {
+    width: 800px;
+    height: 350px;
+    background: lightgreen;
+    position: relative;
+    margin: 10% auto;
+ }
+
+ .cor{
+    position: absolute;
+    left: 300px;
+    top: 80px;
+ }
+
+ .imagem {
+    width: 200px;
+    height: 200px;
+ }
+
+Q-02------------->
+
+html--
+    <div class="div">
+        <p class="texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias dolores, repellendus nostrum voluptatem eaque veniam nemo laboriosam quidem aspernatur sequi omnis illo, facere porro voluptates perspiciatis at odio neque quod?</p>
+        <p class="texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias dolores, repellendus nostrum voluptatem eaque veniam nemo laboriosam quidem aspernatur sequi omnis illo, facere porro voluptates perspiciatis at odio neque quod?</p>
+        <p class="texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias dolores, repellendus nostrum voluptatem eaque veniam nemo laboriosam quidem aspernatur sequi omnis illo, facere porro voluptates perspiciatis at odio neque quod?</p> 
+    </div>
+
+css--
+ .div {
+    width: 250px;
+    height: 350px;
+    position: relative;
+    left: 80%;
+}
+
+.texto {
+    background-color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    text-shadow: 1px 1px 1px white;
+    text-decoration: overline;
+}
+
+Q-03------------->
+
+html--
+    <table class="tabela">
+            <tr>
+                <td>Produtos</td>
+                <td>Tamanho</td>
+                <td>Preço</td>
+            </tr>
+            <tr>
+                <td>Camisa</td>
+                <td>P-M-G</td>
+                <td>$35</td>
+            </tr>
+            <tr>
+                <td>Camiseta</td>
+                <td>P-M-G</td>
+                <td>$25</td>
+            </tr>
+            <tr>
+                <td>Shorts</td>
+                <td>36 ao 42</td>
+                <td>$40</td>
+            </tr>
+            <tr>
+                <td>Saia</td>
+                <td>36 ao 42</td>
+                <td>$40</td>
+            </tr>
+            <tr>
+                <td>Calça jeans</td>
+                <td>36 ao 42</td>
+                <td>$70</td>
+            </tr>
+    </table>
+
+css--
+.tabela {
+    width: 900px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+Q-04------------->
+
+html--
+    <h1>a casa da gente</h1>
+
+css--
+h1 {
+    margin-top: 150px;
+    font-family: roboto;
+    color: gray;
+    box-sizing: border-box;
+    text-shadow: 1px 1px 1px white
+
+
+Q-05------------->
+
+html--
+<button>ativar</button>
+
+css--
+button {
+    width: 140px;
+    height: 40px;
+    background-color: lightblue;
+    text-transform: uppercase;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-radius: 9px;
+}
+
+Q-06------------->
+
+html--
+    <div class="q6">
+        <img src="rosto-perfil.png" class="img-q6">
+        <p>Eriberto</p>
+        <p>dev front-end</p>
+    </div>
+
+css--
+.q6 {
+    display: inline-block;
+    background: gray;
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    box-sizing: border-box;
+    border: 2px black solid;
+    border-radius: 22px;
+}
+
+.img-q6 {
+    border-radius: 22px;
+}
+
+Q-07------------->
+
+a:link: seria o link
+text-transforme: transforma o texto ex: com a propiedade uppercase ele transforma o texto de minusculo para maiusculo.
+color: modifica a cor do texto.
+font-weight: da um peso ao texto/fonte.******
+font-size: modifica o tamanho do texto/fonte
+font-family: define qual fonte sera utilizada.
+text-decoration: pode modificar ou remover a decoraçao padrão do texto.
+
+Q-08------------->
+
+.alinhamento: é ma classe que foi criada no html o .alinhamento sera usado para indicar onde ocorrerão as mudaças feitas pelo css.
+whidth e heigth: modificam  a altura e largura whidth=largura, height=altura.
+background-color: é utilizado para modificar a cor do plano de fundo.
+text-align: modifica o alinhamneto do texto.
+font-family: define qual fonte sera utilizada.
+color: modifica a cor do texto.
+font-weight: da um peso ao texto/fonte.******
+text-shadow: da uma sonbra ao texto.
+margin: define a margem do elemeto..
+
+Q-09------------->****
+
+<div>: tag de agrupamento.****
+<h4>: tag de agrupamento.****
+<span>: é um conteiner generico em linha para conteúdo fraseado.
+<nav>: geralmente utilizado para fazer os elementos do menu.
+<ul>: tag de lista não ordenada.
+<li>: tag de lista.
+<a>: tag utilzada para linkar elementos do html ou sites externos.
+
+Q-10------------->
+
+<section>: representa uma seção genérica contida em um documento HTML, geralmente com um título,
+quando não existir um elemento semântico mais específico para representá-lo.
+<div>: tag de agrupamento.****
+<h2>: tag de titulo.
+<p>: tag de paragrafo ou seja contem uma alavra,frase ou texto.
+
+Q-11------------>
+
+html--
+    <footer>
+        <p>&#169; Todos os direitos reservados - 2022</p>
+    </footer>
+
+css
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: #333333;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+Q-12----------->
+
+html--
+    <nav class="nav">
+        <ul>
+            <li><a href=".." class="menu">Home</a></li>
+            <li><a href=".." class="menu">Quem somos</a></li>
+            <li><a href=".." class="menu">Receitas</a></li>
+            <li><a href=".." class="menu">Apoio</a></li>
+            <li><a href=".." class="menu">contato</a></li>
+        </ul>
+    </nav>
+
+css--
+.nav {
+    background-color: yellow;
+}
+
+.menu {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+----------------------------------------------------------------------
+-------------------------git e git-hub--------------------------------
+----------------------------------------------------------------------
+Q-01
+
+git remote add origin https://github.com
+mkdir /primeira-questao.git
+git push origni main
+
+Q-02
+
+git checkout --e42a434
+git commit -m "voltar para corrigir"
+
+Q-03
+
+14:00       16:00       17:00
+git add     git add     git add
+git commit  git commit  git commit
+
+Q-04
+
+git clone http://
+git add
+git commit -m ""
+git push
+
+Q-05
+
+git reset localiozacao html
+
+Q-06
+
+git commit --amend -m "mensaguem correta"
+
+Q-07
+
+falso
+
+Q-08
+
+git clone http://
+git add .
+git commit -m ""
+git push origni main
+
+Q-09
+
+cria uma branch e entra nela
+
+Q-10
+
+git checkout -b correcao i73xy
+git add .
+git commit -m ""
+git checkout main
