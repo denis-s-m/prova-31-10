@@ -57,48 +57,57 @@ css--
 Q-03------------->
 
 html--
-    <table class="tabela">
-            <tr>
-                <td>Produtos</td>
-                <td>Tamanho</td>
-                <td>Preço</td>
-            </tr>
-            <tr>
-                <td>Camisa</td>
-                <td>P-M-G</td>
-                <td>$35</td>
-            </tr>
-            <tr>
-                <td>Camiseta</td>
-                <td>P-M-G</td>
-                <td>$25</td>
-            </tr>
-            <tr>
-                <td>Shorts</td>
-                <td>36 ao 42</td>
-                <td>$40</td>
-            </tr>
-            <tr>
-                <td>Saia</td>
-                <td>36 ao 42</td>
-                <td>$40</td>
-            </tr>
-            <tr>
-                <td>Calça jeans</td>
-                <td>36 ao 42</td>
-                <td>$70</td>
-            </tr>
+    <table class="tbl">
+        <tr class="tr">
+            <td class="produtos">Produto</td>
+            <td>Tamanho</td>
+            <td>Preço</td>
+        </tr>
+        <tr>
+            <td class="produtos">Camisa</td>
+            <td>P-M-G</td>
+            <td>$35</td>
+        </tr>
+        <tr>
+            <td class="produtos">Camiseta</td>
+            <td>P-M-G</td>
+            <td>$25</td>
+        </tr>
+        <tr>
+            <td class="produtos">Short</td>
+            <td>36 ao 42</td>
+            <td>$40</td>
+        </tr>
+        <tr>
+            <td class="produtos">Saia</td>
+            <td>36 ao 42</td>
+            <td>$40</td>
+        </tr>
+        <tr>
+            <td class="produtos">Calça jeans</td>
+            <td>36 ao 42</td>
+            <td>$70</td>
+        </tr>
     </table>
 
 css--
-.tabela {
+.tbl {
     width: 900px;
     box-sizing: border-box;
     border: 1px solid black;
 }
 
+tr {
+    font-family: Tahoma;
+    font-size: 22px;
+}
 td {
-    border: 1px solid black;
+    box-sizing: border-box;
+    border: 1px solid black; 
+}
+
+.produtos {
+    font-weight: bolder;
 }
 
 Q-04------------->
