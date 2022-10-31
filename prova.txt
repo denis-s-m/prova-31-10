@@ -188,12 +188,12 @@ font-family: define qual fonte sera utilizada.
 color: modifica a cor do texto.
 font-weight: da um peso ao texto/fonte.******
 text-shadow: da uma sonbra ao texto.
-margin: define a margem do elemeto..
+margin: define a área de margem nos quatro lados do elemento.
 
 Q-09------------->****
 
 <div>: tag de agrupamento.****
-<h4>: tag de agrupamento.****
+<h4>: tag de titulo ou subtitulo.****
 <span>: é um conteiner generico em linha para conteúdo fraseado.
 <nav>: geralmente utilizado para fazer os elementos do menu.
 <ul>: tag de lista não ordenada.
